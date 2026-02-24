@@ -70,7 +70,7 @@ main.py requirements.txt README.md
 
 1.  Clone the repository:
 
-    git clone https://github.com/your-username/module5_is601.git
+    git clone git@github.com:tl392/module5-assignment.git
 
 2.  Navigate into the folder:
 
