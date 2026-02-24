@@ -1,22 +1,30 @@
 """
-Application entry point for the CLI Calculator.
+Advanced Object-Oriented Programming: Complete Calculator Implementation
+====================================================================
 
-This file exists so the program can be started with:
+A comprehensive educational example demonstrating OOP principles, design patterns,
+and Python best practices through a calculator implementation.
 
-    python main.py
+Key Features:
+------------
+1. Design Patterns: Singleton, Strategy, Observer, Factory, Command, Memento
+2. Error Handling: Custom exception hierarchy
+3. Input Validation: Robust input checking
+4. Persistence: History saving/loading
+5. Testing: Unit test suite
+6. Logging: Comprehensive logging system
+7. Documentation: Educational comments
+8. Type Hints: Static type checking support
 
-instead of:
-
-    python -m app.calculator
+Version: 1.0
 """
 
-from app.calculator import Calculator
 
 
-def main() -> None:
-    """Start the calculator REPL."""
-    Calculator().repl()
+
+
+from app.calculator_repl import calculator_repl
 
 
 if __name__ == "__main__":
-    main()
+    calculator_repl()
