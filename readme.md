@@ -140,6 +140,48 @@ Push:
 
 ------------------------------------------------------------------------
 
+## Environment Variable Management (python-dotenv)
+
+This project uses python-dotenv to manage configuration through
+environment variables. All configuration values are stored in a `.env`
+file and loaded automatically at runtime.
+
+### Supported Environment Variables
+
+CALCULATOR_BASE_DIR\
+Base directory where logs and history files are stored.
+
+CALCULATOR_MAX_HISTORY_SIZE\
+Maximum number of calculations stored in history.
+
+CALCULATOR_AUTO_SAVE\
+If set to True, history is automatically saved after each operation.
+
+CALCULATOR_PRECISION\
+Controls decimal precision of calculation results.
+
+CALCULATOR_MAX_INPUT_VALUE\
+Maximum allowable numeric input value for calculations.
+
+CALCULATOR_DEFAULT_ENCODING\
+Default file encoding used when saving or loading files.
+
+### Example `.env` File
+
+CALCULATOR_BASE_DIR=./data\
+CALCULATOR_MAX_HISTORY_SIZE=100\
+CALCULATOR_AUTO_SAVE=True\
+CALCULATOR_PRECISION=4\
+CALCULATOR_MAX_INPUT_VALUE=1000000\
+CALCULATOR_DEFAULT_ENCODING=utf-8
+
+Using dotenv allows: - Separation of configuration from code - Easy
+environment switching (development, testing, production) - Better
+maintainability and flexibility - Industry-standard configuration
+management
+
+------------------------------------------------------------------------
+
 ## Learning Outcomes
 
 -   Applying advanced OOP principles in real applications
