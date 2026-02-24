@@ -131,7 +131,7 @@ Commit:
 
 Add remote:
 
-    git remote add origin https://github.com/your-username/module5_is601.git
+    git remote add origin git@github.com:tl392/module5-assignment.git
 
 Push:
 
